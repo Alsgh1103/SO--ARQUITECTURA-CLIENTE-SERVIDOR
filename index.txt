@@ -1,3 +1,5 @@
-Never gonna give you up
-Never gonna let you down
-Hello amix
+Bienvenido al Servidor Web con arquitectura Cliente-Servidor
+
+Por favor, visita los siguientes enlaces disponibles:
+- Información de Prueba 01: <Pw01.txt>
+- Información de Prueba 02: <Pw02.txt>

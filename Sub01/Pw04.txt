@@ -1,0 +1,6 @@
+Hola desde el archivo Pw04.txt.
+
+Este archivo se encuentra almacenado dentro del subdirectorio 'Sub01'.
+El servidor es capaz de resolver rutas anidadas sin problemas.
+
+Regresar al inicio: <index.txt>

@@ -1,0 +1,5 @@
+Has accedido al archivo Pw01.txt.
+
+El servidor HTTP lee y procesa correctamente los archivos .txt desde el disco local.
+
+Puedes volver al inicio utilizando el enlace: <index.txt>

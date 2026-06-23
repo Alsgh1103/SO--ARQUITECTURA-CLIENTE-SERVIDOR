@@ -1,0 +1,6 @@
+Has accedido al archivo Pw02.txt.
+
+Este archivo contiene un enlace a un recurso ubicado en un subdirectorio.
+Para acceder, haz clic aquí: <Sub01/Pw04.txt>
+
+O si prefieres, regresa al inicio: <index.txt>
