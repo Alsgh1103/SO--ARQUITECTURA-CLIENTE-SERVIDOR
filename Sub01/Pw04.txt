@@ -1,6 +1,6 @@
-Hola desde el archivo Pw04.txt.
+Página 4
+Arquitectura Cliente-Servidor:
+El modelo cliente-servidor es una arquitectura donde una computadora (Servidor) ofrece recursos o servicios, y otra computadora (Cliente) los consume.
+El servidor siempre está a la escucha (listen) de peticiones, mientras que el cliente es quien inicia la comunicación (connect).
 
-Este archivo se encuentra almacenado dentro del subdirectorio 'Sub01'.
-El servidor es capaz de resolver rutas anidadas sin problemas.
-
-Regresar al inicio: <index.txt>
+>Home

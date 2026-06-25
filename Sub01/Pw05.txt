@@ -1,0 +1,7 @@
+Página 5
+Ventajas del Modelo Cliente-Servidor
+1. Centralización del control: Los accesos, recursos y la integridad de los datos son controlados por el servidor.
+2. Escalabilidad: Se pueden aumentar la capacidad de clientes y servidores por separado.
+3. Fácil mantenimiento: Al estar distribuido, reparar o actualizar el servidor no afecta a los clientes directamente.
+
+>Home

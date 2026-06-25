@@ -1,5 +1,7 @@
-Has accedido al archivo Pw01.txt.
+Página 1:
+Bienvenido  al servidor del grupo conformado por Danilo, Alexis y Paolo
+Puedes interactuar con la arquitectura cliente-servidor
+Nota: Para retroceder usa ">Home"
 
-El servidor HTTP lee y procesa correctamente los archivos .txt desde el disco local.
+>Home
 
-Puedes volver al inicio utilizando el enlace: <index.txt>

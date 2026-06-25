@@ -1,14 +1,29 @@
 import socket
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-client.connect(('127.0.0.1', 8080))
-print("conexion establecida con el servidor ...")
+direccion_ip_servidor = input("IP del servidor (Enter para localhost): ")
+if direccion_ip_servidor == "":
+    direccion_ip_servidor = "127.0.0.1"
 
-nombre = input("Archivo a solicitar: ")
-client.send(nombre.encode('utf-8'))
+cliente_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+cliente_socket.connect((direccion_ip_servidor, 8080))
+
+peticion_inicial = "index.txt"
+cliente_socket.send(peticion_inicial.encode('utf-8'))
+respuesta_servidor = cliente_socket.recv(4096).decode('utf-8')
+print("\n" + respuesta_servidor + "\n")
+
+while True:
+    comando_usuario = input("-> ")
     
-respuesta = client.recv(1024).decode('utf-8')
-print(f"Respuesta del servidor:\n{respuesta}")
+    if comando_usuario.strip() == "":
+        continue
+        
+    cliente_socket.send(comando_usuario.encode('utf-8'))
     
-client.close()
+    if comando_usuario == ">END":
+        break
+        
+    respuesta_servidor = cliente_socket.recv(4096).decode('utf-8')
+    print("\n" + respuesta_servidor + "\n")
+
+cliente_socket.close()

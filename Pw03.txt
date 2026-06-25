@@ -1,0 +1,6 @@
+Página 3
+Diferencia entre TCP y UDP:
+- TCP (Transmission Control Protocol): Es orientado a conexión. Garantiza que los paquetes lleguen en orden y sin errores. (Es el que usamos en este servidor para que no se pierdan los textos).
+- UDP (User Datagram Protocol): No orientado a conexión. Es más rápido pero no garantiza que los datos lleguen. Se usa en videojuegos o streaming de video.
+
+>Home

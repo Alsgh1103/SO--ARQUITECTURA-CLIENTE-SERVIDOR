@@ -1,0 +1,7 @@
+Página 6 
+Direcciones IP y Puertos:
+Para que dos máquinas se comuniquen, necesitan coordenadas:
+- Dirección IP: Identifica a la computadora específica dentro de una red (como si fuera la dirección de un edificio).
+- Puerto: Identifica al programa específico dentro de esa computadora que va a recibir la información (como si fuera el número de departamento). Nosotros usamos el puerto 8080.
+
+>Home

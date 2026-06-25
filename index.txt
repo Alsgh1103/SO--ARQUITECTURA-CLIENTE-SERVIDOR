@@ -1,5 +1,9 @@
-Bienvenido al Servidor Web con arquitectura Cliente-Servidor
+Bienvenido
+<Pw01.txt>
+<Pw02.txt>
+<Pw03.txt>
+<Sub01/Pw04.txt>
+<Sub01/Pw05.txt>
+<Pw06.txt>
 
-Por favor, visita los siguientes enlaces disponibles:
-- Información de Prueba 01: <Pw01.txt>
-- Información de Prueba 02: <Pw02.txt>
+>END
